@@ -1,0 +1,13 @@
+# .gitignore dosyası içeriği
+
+# Veri dosyalarını yoksay (Büyük boyutlu oldukları için)
+data/*.csv
+data/*.xlsx
+
+# Python geçici dosyaları
+__pycache__/
+*.pyc
+
+# Tableau geçici ve yedek dosyaları
+*.twbr
+*.tbm
